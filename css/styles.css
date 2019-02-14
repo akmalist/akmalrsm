@@ -178,4 +178,12 @@ a:hover{
 }
 
 
+@media screen and (min-width: 400px) {
+   h3,  p {
+    font-size: 2rem;
+    }
+   
+}
+
+
  
