@@ -6,13 +6,10 @@
    font-family: 'Merriweather', serif;
  }
 
- /* html, body {
-    margin: 0px;
-    padding: 0px;
-}  */
- h1 {
+
+ #h1{
    color: #66BFBF;
-   text-align: center;
+
    font-size: 5.625rem;
    margin: 50px auto 0 auto;
    font-family: 'Sacramento', cursive;
@@ -22,19 +19,21 @@
    color: #66BFBF;
    text-align: center;
    font-family: 'Montserrat', sans-serif;
-   font-size: 2.5rem;
+   font-size: 5rem;
    font-weight: normal;
-   padding-bottom: 10px;
+   /* padding-bottom: 100px; */
  }
 
  h3 {
    color: #11999E;
    font-family: 'Montserrat', sans-serif;
+
    text-align: center;
  }
 
  p {
    line-height: 1.5;
+   font-size: 2rem;
    text-align: center;
  }
 
@@ -57,6 +56,7 @@
  }
 
  .top-container {
+
    background-color: #b7fbff;
    position: relative;
    padding: 50px 0;
@@ -191,6 +191,18 @@
    padding: 20px 0;
  }
 
- @media only screen and (max-width: 600px) {
+ .fa-twitter-square{
+   color:#1ee3cf
+ }
+ .fa-github-square{
+   color: #454d66;
+ }
+
+
+
+
+
+ @media only screen and (max-width: 600px,) {
  background-color:red;
+
  }
