@@ -64,7 +64,7 @@
  .top-container {
  	background-color: #b7fbff;
  	position: relative;
- 	padding: 14% 0;
+ 	padding: 10% 0;
  }
 
  .plane {
@@ -86,7 +86,7 @@
 
  .middle-container {
   background-color: #f4f4f4;
- 	padding: 15% 0;
+ 	padding: 7rem 0;
  }
 .row{
  display: grid;
@@ -96,12 +96,13 @@
  margin: 2% 0;
 }
 .project-section{
- margin: 10% 0;
+ margin: 7rem 0;
 }
  .row img {
- 	width: 20rem;
-  height: 20rem;
- 	border-radius: 10%;
+ 	width: 25rem;
+  height: 25rem;
+ 	border-radius: 5%;
+
 
  }
  .row img:hover{
@@ -111,7 +112,7 @@
   transition: all .7s;
  }
  .project{
-   margin:5% 0;
+   margin:5rem 0;
  }
 
  .profile img {
