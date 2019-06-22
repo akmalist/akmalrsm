@@ -99,16 +99,16 @@
  margin: 7rem 0;
 }
  .row img {
- 	width: 25rem;
-  height: 25rem;
+ 	width: 20rem;
+  height: 18rem;
  	border-radius: 5%;
 
 
  }
  .row img:hover{
-   -ms-transform: scale(1.3); /* IE 9 */
-  -webkit-transform: scale(1.3); /* Safari 3-8 */
-  transform: scale(1.3);
+   -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
   transition: all .7s;
  }
  .project{
@@ -123,30 +123,24 @@
 
  }
 
- .web-design {
-   width: 15%;
-  	float: left;
-  	margin-right: 30px;
- }
 
- .sql {
- 	width: 15%;
- 	float: right;
- 	margin-left: 30px;
- }
+ .skills {
 
- .qa-tester {
- 	width: 15%;
- 	float: left;
- 	margin-right: 30px;
- }
+    padding:20px;
+    margin: 10px;
+    display: inline-block;
 
- .skill-row {
- 	display: inline-block;
- 	width: 50%;
- 	margin: 90px auto 90px auto;
- 	text-align: left;
  	float: clear;
+ }
+ .skills i{
+    	margin: 0 1rem;
+ }
+
+
+
+ .cv{
+   margin: 10rem 0;
+   color: red;
  }
 
  .top-cloud {
@@ -220,6 +214,8 @@
 
 
 
+ /***********************skills ***************/
+
 
 
  @media only screen and (max-width: 600px) {
@@ -247,14 +243,14 @@
 		 width: 5rem;
 	 }
 
-	  .skill-row {
+	  /* .skill-row {
  	padding: 0;
 	margin: 12px;
  }
 
 .skill-row img{
 	width:40px;
-}
+} */
 
 
 
@@ -268,4 +264,4 @@
 }
 
 
- 	}
+	}
