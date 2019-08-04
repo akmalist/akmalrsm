@@ -70,7 +70,7 @@
  }
 
  .intro {
-   width: 30%;
+   width: 45%;
    margin: auto;
  }
 
@@ -231,15 +231,25 @@
    }
 
    .profile img {
-     width: 5rem;
+     width: 6rem;
    }
 
    .top-cloud {
-     padding-top: 25%
+     padding-top: 5%;
+
    }
 
    .bottom-cloud {
      position: static;
-     padding-left: 70px;
+     padding-left: 90px;
    }
+
+   .btn {
+     font-size: 1rem;
+   }
+
+   .row{
+     display: inline-block;
+   }
+
  }
