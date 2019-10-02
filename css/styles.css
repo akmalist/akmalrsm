@@ -5,6 +5,7 @@
    padding: 0;
    text-align: center !important;
    font-family: 'Merriweather', serif;
+   scroll-behavior: smooth;
  }
 
  h2,
@@ -81,7 +82,7 @@
 
 
 
-  /***********************Middle Container ***************/
+ /***********************Middle Container ***************/
  .middle-container {
    background-color: #f4f4f4;
    padding: 7rem 0;
@@ -141,7 +142,7 @@
    color: red;
  }
 
-  /***********************Clouds ***************/
+ /***********************Clouds ***************/
  .top-cloud {
    position: absolute;
    width: 15%;
@@ -156,7 +157,7 @@
    bottom: 240px;
  }
 
-  /***********************Bottom Container ***************/
+ /***********************Bottom Container ***************/
  .bottom-container {
    background-color: #ffa1ac;
    padding: 50px 0 20px;
@@ -248,8 +249,30 @@
      font-size: 1rem;
    }
 
-   .row{
+   .row {
      display: inline-block;
    }
+
+ }
+
+
+
+ #myBtn {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index: 1;
+   border: none;
+   outline: none;
+   padding: 0;
+   cursor: pointer;
+   width: 3rem;
+   scroll-behavior: smooth;
+   transition: all 0.25s ease-in-out;
+ }
+
+ #myBtn:hover {
+   transform: scale(1.1);
 
  }
