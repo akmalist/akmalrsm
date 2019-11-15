@@ -1,4 +1,4 @@
-#Porfolio
+# Porfolio
 
 My personal portfolio. Features a JavaScript, Node.JS RESTful API. 
 I've added the code to GitHub, so that prospective employers, clients and colleagues can have a snoop around my code.
