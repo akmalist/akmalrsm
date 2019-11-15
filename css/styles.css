@@ -64,6 +64,8 @@
    padding: 10% 0;
  }
 
+
+
  .plane {
    width: 15%;
    display: block;
@@ -80,7 +82,12 @@
    margin: 40px auto 60px;
  }
 
-
+ .profile img {
+  margin-top: 2%;
+  width: 16%;
+  border-radius: 10%;
+  margin-bottom: 50px;
+}
 
  /***********************Middle Container ***************/
  .middle-container {
@@ -88,43 +95,25 @@
    padding: 7rem 0;
  }
 
- .row {
-   display: grid;
-   grid-column-gap: 10px;
-   grid-template-columns: auto auto auto;
-   padding: 0px;
-   margin: 2% 0;
+ .project-section{
+  background: #ffe7d1;
+  padding: 7rem 0;
  }
 
- .project-section {
-   margin: 7rem 0;
+ .project-section h2{
+   margin-bottom: 5rem;
  }
 
- .row img {
-   width: 20rem;
-   height: 18rem;
-   border-radius: 5%;
- }
+ /***************Project Section***************/
 
- .row img:hover {
-   -ms-transform: scale(1.2);
-   /* IE 9 */
-   -webkit-transform: scale(1.2);
-   /* Safari 3-8 */
-   transform: scale(1.2);
-   transition: all .7s;
- }
 
- .project {
-   margin: 5rem 0;
- }
-
- .profile img {
-   margin-top: 2%;
-   width: 16%;
-   border-radius: 10%;
-   margin-bottom: 50px;
- }
+ .project-section .project-slides .carousel-inner .carousel-item img{
+	 
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  border-radius: 5%;
+}
 
  .skills {
    padding: 20px;
@@ -161,7 +150,7 @@
  .bottom-container {
    background-color: #ffa1ac;
    padding: 50px 0 20px;
-   margin-top: 50px;
+  
  }
 
  .contact-me {
