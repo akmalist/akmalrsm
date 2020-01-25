@@ -14,3 +14,9 @@
      document.body.scrollTop = 0;
      document.documentElement.scrollTop = 0;
  }
+
+//get dinamic ccopyright date
+ const year = new Date().getFullYear();
+ const copyRight= document.getElementById('copyright').innerHTML = year;
+
+ 

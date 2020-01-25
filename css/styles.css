@@ -1,25 +1,28 @@
- html,
- body {
+*{
      color: #40514E;
      margin: 0;
      padding: 0;
-     text-align: center !important;
-     font-family: 'Merriweather', serif;
+     text-align: center ;
+     font-family: 'Merriweather','Montserrat' serif;
      scroll-behavior: smooth;
  }
 
- h2,
- h3 {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 3rem;
- }
-
- h2 {
+.heading-subs{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem !important;
      color: #66BFBF;
-     text-align: center;
-     font-size: 5rem;
-     font-weight: normal;
- }
+
+}
+.middle-container div{
+    margin: 1rem 0;
+    
+}
+ 
+.text-message{
+    width: 18rem;
+    margin: 25px auto ;
+  
+}
 
  .heading-primary-main {
      display: block;
@@ -35,35 +38,14 @@
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 8.5px;
- 
+    color: #66BFBF;
 } 
-
- h3 {
-     color: #11999E;
-     font-family: 'Montserrat', sans-serif;
-     text-align: center;
- }
-
- p {
-     line-height: 1.5;
-     font-size: 2rem;
-     text-align: center;
- }
-
- hr {
-     border: dotted grey 6px;
-     border-bottom: none;
-     width: 4%;
-     margin: 100px auto;
- }
-
  a {
      color: #11999e;
      font-family: 'Montserrat', sans-serif;
-     margin: 10px 20px;
+     margin: 30px 20px;
      text-decoration: none;
  }
-
  a:hover {
      color: #eaf6f6;
  }
@@ -74,26 +56,23 @@
      padding: 10% 0;
  }
 
-
- .intro {
-     width: 45%;
-     margin: auto;
+ .line {
+     border: dotted grey 4px;
+     border-bottom: none;
+     width: 5%;
+     margin: 80px auto;
  }
 
- .contact-message {
-     width: 40%;
-     margin: 40px auto 60px;
- }
+
 
  .profile img {
-     margin-top: 2%;
-     width: 16%;
-     border-radius: 10%;
-     margin-bottom: 50px;
+    margin-top: 2%;
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 50px;
  }
 
-
- @keyframes moveLeft {
+@keyframes moveLeft {
      0%{
          opacity: 1;
          transform: translateX(-400px)
@@ -113,8 +92,6 @@
         transform: translateX(0);
     }
 }
-
-
  /***********************Clouds ***************/
  .top-cloud {
      position: absolute;
@@ -131,70 +108,44 @@
      animation: moveLeft 1s ease-out;
      
  }
-
  .plane {
      width: 250px;
      display: block;
      margin: 0 auto;
      animation: moveRight 1s ease-out;
  }
-
  /***********************Middle Container ***************/
- .middle-container {
-     position: relative;
-     background-color: #f4f4f4;
-     padding: 7rem 0;
- }
-.middle-container .intro {
-    display: block;
-    padding: 5rem;
-}
-
+ 
+ 
  .project-section {
      background: #ffe7d1;
-     padding: 7rem 0;
- }
-
- .project-section h2 {
-     margin-bottom: 5rem;
+     padding: 4rem 0;
  }
 
  /***************Project Section***************/
 
 
  .project-section .project-slides .carousel-inner .carousel-item img {
-
      width: auto;
      height: 500px;
      max-height: 500px;
      border-radius: 5%;
  }
-
- .skills {
-     display: inline-block;
+ .middle-container, .skills {
+     display: block;
      padding: 3rem;
+ 
 }
-
  .skills i {
-     margin: 0 1rem;
+   padding: 0 1rem;
  }
-
- .cv {
-     padding: 3rem 0;
-  }
-
 
  /***********************Bottom Container ***************/
  .bottom-container {
      background-color: #ffa1ac;
      padding: 50px 0 20px;
-
- }
-
-.contact h2{
-    margin: 15px 0;
 }
-
+ 
  .btn {
      -webkit-border-radius: 28;
      -moz-border-radius: 28;
@@ -202,13 +153,7 @@
      -webkit-box-shadow: 0px 1px 3px #66BFBF;
      -moz-box-shadow: 0px 1px 3px #66BFBF;
      box-shadow: 0px 1px 3px #66BFBF;
-     font-family: 'Montserrat', sans-serif;
-     color: #ffffff;
-     font-size: 20px;
-     background: #41baba;
-     padding: 10px 20px 10px 20px;
-     text-decoration: none;
- }
+}
 
  .btn:hover {
      background: #3cb0fd;
@@ -220,12 +165,12 @@
      text-decoration: none;
  }
 
- .copyright {
+ #copyright,.copyright{
      color: #eaf6f6;
      font-size: 0.75rem;
      padding: 20px 0;
  }
-
+ 
  .fa-twitter-square {
      color: #1ee3cf
  }
@@ -241,51 +186,18 @@
 
  /***********************Media ***************/
  @media only screen and (max-width: 1380px) {
-     h1 {
-         font-size: 30px;
-     }
-
-     h2 {
-         font-size: 20px;
-     }
-
-     h3 {
-         font-size: 15px;
-     }
-
-     p {
-         font-size: 10px;
-     }
-
-     .profile img {
-         width: 6rem;
-     }
-
-     .top-cloud {
+ 
+     .top-cloud, .bottom-cloud {
          visibility: hidden;
-
-     }
-
-     .bottom-cloud {
-        visibility: hidden;
-     }
-
-     .btn {
-         font-size: 1rem;
-     }
-
-     .row {
-         display: inline-block;
      }
 
  }
 
 
-
  #myBtn {
      display: none;
      position: fixed;
-     bottom: 20px;
+     bottom: 70px;
      right: 30px;
      z-index: 1;
      border: none;
