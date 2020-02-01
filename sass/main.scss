@@ -1,0 +1,239 @@
+
+/*Colors
+light blue : $color-primary
+light grey : #eaf6f6
+purple: #ffa1ac
+blue: #3cb0fd
+lighets blue: #1ee3cf
+
+
+*/
+
+$color-primary: #66BFBF ;
+
+$color-primary-light: #1ee3cf;
+
+$color-primary-dark: #3cb0fd;
+
+
+*,
+*::after,
+*::before{
+      margin: 0;
+     padding: 0;
+     text-align: center ;
+     font-family: 'Merriweather','Montserrat' serif;
+     scroll-behavior: smooth;
+     box-sizing: inherit;
+ }
+html{
+    font-size: 62.5%;
+}
+
+.heading-primary-main {
+    display: block;
+    color: $color-primary;
+    font-size: 10.625rem;
+    margin: 5rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+
+}
+
+.heading-primary-sub{
+   display: block;
+   font-size: 4rem;
+   font-weight: 400;
+   letter-spacing: 0,9rem;
+   color: $color-primary;
+} 
+.heading-subs{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem !important;
+    color: $color-primary;
+
+} 
+ 
+.text-message{
+    width: 49rem;
+    margin: 15px auto ;
+    font-size: 2.5rem;
+  
+}
+.middle-container div{
+    margin: 2rem 0;
+    
+}
+
+a {
+     color: #11999e;
+     font-family: 'Montserrat', sans-serif;
+     margin: 3rem 2rem;
+     text-decoration: none;
+ } 
+ a:hover {
+     color: #eaf6f6;
+ }
+
+ .top-container {
+     background-color: #b7fbff;
+     position: relative;
+     padding: 10% 0;
+ }
+
+ .line {
+     border: dotted grey 4px;
+     border-bottom: none;
+     width: 5%;
+     margin: 80px auto;
+ }
+
+
+
+ .profile img {
+    margin-top: 2%;
+    width: 20rem;
+    border-radius: 10%;
+    margin-bottom: 5rem;
+ }
+
+@keyframes moveLeft {
+     0%{
+         opacity: 1;
+         transform: translateX(-400px)
+     }
+ 
+     100%{
+         transform: translateX(0)
+     }
+ }
+
+@keyframes moveRight{
+    0%{
+        opacity: 0;
+        transform: translateX(800px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+ /***********************Clouds ***************/
+ .top-cloud {
+     position: absolute;
+     width: 25rem;
+     right: 45rem;
+     top: 13rem;    
+     animation: moveLeft 1s ease-out;
+ }
+ .bottom-cloud {
+     position: absolute;
+     width: 20rem;
+     left: 55rem;
+     bottom: 15rem;
+     animation: moveLeft 1s ease-out;
+     
+ }
+ .plane {
+     width: 25rem;
+     display: block;
+     margin: 0 auto;
+     animation: moveRight 1s ease-out;
+ }
+ /***********************Middle Container ***************/
+ 
+ 
+ .project-section {
+     background: #ffe7d1;
+     padding: 4rem 0;
+ }
+
+ /***************Project Section***************/
+
+
+ .project-section .project-slides .carousel-inner .carousel-item img {
+     width: auto;
+     height: 50rem;
+     max-height: 50rem;
+     border-radius: 5%;
+ }
+ .middle-container, .skills {
+     display: block;
+     padding: 3rem;
+ 
+}
+ .skills i {
+   padding: 0 1rem;
+ }
+
+ /***********************Bottom Container ***************/
+ .bottom-container {
+     background-color: #ffa1ac;
+     padding: 5rem 0 2rem;
+}
+ 
+ .btn {
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 2.8rem;
+     -webkit-box-shadow: 0px 1px 3px $color-primary;
+     -moz-box-shadow: 0px 1px 3px $color-primary;
+     box-shadow: 0px 1px 3px $color-primary;
+}
+
+ .btn:hover {
+     background: #3cb0fd;
+     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+     text-decoration: none;
+ }
+
+ #copyright,.copyright{
+     color: #eaf6f6;
+     font-size: 0.75rem;
+     padding: 2rem 0;
+ }
+ 
+ .fa-twitter-square {
+     color: #1ee3cf
+ }
+
+ .fa-github-square {
+     color: #454d66;
+ }
+
+ .footer-link :hover {
+     transform: scale(1.3);
+     transition: all .7s;
+ }
+
+ /***********************Media ***************/
+ @media only screen and (max-width: 1380px) {
+ 
+     .top-cloud, .bottom-cloud {
+         visibility: hidden;
+     }
+
+ }
+
+
+ #myBtn {
+     display: none;
+     position: fixed;
+     bottom: 70px;
+     right: 30px;
+     z-index: 1;
+     border: none;
+     outline: none;
+     padding: 0;
+     cursor: pointer;
+     width: 3rem;
+     scroll-behavior: smooth;
+     transition: all 0.25s ease-in-out;
+ }
+
+ #myBtn:hover {
+     transform: scale(1.1);
+
+ }

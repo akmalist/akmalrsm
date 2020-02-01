@@ -1,0 +1,23 @@
+{
+  "name": "akmalrsm",
+  "version": "1.0.0",
+  "description": "My personal portfolio. I've added the code to GitHub, so that prospective employers, clients and colleagues can have a snoop around my code.",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akmalist/akmalrsm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akmalist/akmalrsm/issues"
+  },
+  "homepage": "https://github.com/akmalist/akmalrsm#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
